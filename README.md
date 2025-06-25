@@ -18,19 +18,3 @@ streamlit run frontend/app.py
 ```bash
 http://localhost:8501
 ```
-## Estructura del proyecto:
-proyecto/
-├── backend/
-│ ├── api/
-│ │ ├── pycache/
-│ │ └── main.py # Servidor principal de la API
-│ ├── model/
-│ │ └── modelo_entrenado.pkl # Modelo ML entrenado
-│ └── student-mat.csv # Dataset original
-├── frontend/
-│ └── app.py # Aplicación Streamlit
-├── notebooks/
-│ └── train_model.ipynb # Notebook de entrenamiento
-├── venv/ # Entorno virtual (opcional)
-├── requirements.txt # Dependencias del proyecto
-└── README.md # Documentación
